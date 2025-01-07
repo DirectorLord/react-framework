@@ -1,0 +1,12 @@
+.c-after{
+  background-color: white;
+}
+.c-aft::after{
+  content: ">";
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
